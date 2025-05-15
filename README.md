@@ -2,14 +2,6 @@
 
 This repository contains a collection of mini-projects built using **HTML**, **CSS**, and **JavaScript**. Each project is organized in its own subfolder and focuses on a specific concept or functionality to help strengthen core frontend development skills.
 
-## 📂 Project Structure
-javascriptproject/
-│
-├── weatherapp/ # A simple weather app using OpenWeather API
-├── calculator/ # (Coming soon) Basic calculator app
-├── todolist/ # (Coming soon) To-do list with localStorage
-└── ... # More projects will be added here
-
 ## 🛠 Technologies Used
 
 - HTML5
