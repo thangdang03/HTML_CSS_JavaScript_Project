@@ -1,0 +1,250 @@
+/*
+    import gg font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+    reset css
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    body and main container css
+*/
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100dvh;
+    background-image: url("./assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 100dvh;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.15);
+    backdrop-filter: blur(15px);
+    z-index: -1;
+    font-family: "Poppins", sans-serif;
+}
+
+#mainContainer{
+    width: 300px;
+    height: 496px;
+    background: linear-gradient(to top,rgb(0,0,0,0.15),
+       rgb(225,225,225,0.15)
+    );
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 25px;
+}
+
+/*
+    header and navigation css
+*/
+
+nav{
+    width: 100%;
+    height:  60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+nav input{
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: rgb(0, 0, 0,0.15);
+    border: none;
+    padding: 0 30px 0 10px;
+    color: white;
+    font-size: 15px ;
+}
+
+nav input:focus{
+    outline: none;
+}
+
+nav input::placeholder{
+    color: rgb(255, 255, 255 , 0.75);
+}
+
+nav i{
+    position: absolute;
+    right: 15px;
+    padding: 10px 10px 10px 5px;
+    cursor: pointer;
+}
+
+
+/*
+    banner image css
+*/
+
+#searchBanner{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+}
+
+.image-banner{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+.text{
+    width: 100%;
+}
+
+
+/*
+    banner notfound
+*/
+
+#notFond{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+
+
+/*
+   information section css
+*/
+
+#info{
+    height: 80%;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain p{
+    font-size: 13px;
+}
+
+.contain h2{
+    display: inline-block;
+}
+
+.iamge-infor{
+    width: 50%;
+}
+
+.item{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :10px;
+}
+.item > p{
+    color: rgb(0, 0, 0,0.15);
+}
+
+.title{
+    font-size: 11px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.item i {
+    font-size: 25px;
+}
+
+
+
+.list-item{
+    width: 100%;
+    height: 170px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.list-item::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0, 0.1); 
+  border-radius: 99px;
+}
+
+.list-item::-webkit-scrollbar-thumb{
+  background: rgb(0, 0, 0, 0.15); 
+  border-radius: 99px;
+}
+
+.list-item::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+}
+
+.list-item::-webkit-scrollbar {
+    height: 8px;
+}
+
+
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    height: 90%;
+    width: 100px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.15);
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+.item-list img{
+    width: 80px;
+
+}
+
+.img p {
+    display: block;
+    text-align: center;
+}
+

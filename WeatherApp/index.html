@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather application where you can see the weather in the world or many other places in the world">
+    <link rel="shortcut icon" href="./assets/logo/logo_app.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <!--main mainContainer-->
+    <main id="mainContainer">
+        <header class="header">
+            <nav class="navigation">
+                <input id="inputSearch" type="text" class="search" placeholder="Search City" autocomplete="off" >
+                <i id="icon" class="fa-solid fa-magnifying-glass icon"></i>
+            </nav>
+        </header>
+        <section id="searchBanner" aria-label="search banner">
+            <img class="image-banner" id="img-banner" src="./assets/message/search-city.png" alt="search banner" loading="lazy">
+            <div class="text">
+                <h2 class="header-banner">Search City</h2>
+                <p class="text-banner">Find out the weather conditions of the city</p>
+            </div>
+        </section>
+
+        <section id="info">
+            <div class="contain">
+                <div class="name-location">
+                    <h3 class="text-location">  <i class="fa-solid fa-location-dot"></i> Singapore </h3>
+                </div>
+                <p id="Time">Thu,08 Aug</p>   
+            </div>
+            <div class="contain">
+                <img class="iamge-infor" id="infor-banner" src="./assets/weather/clouds.svg" alt="image weather">
+                <div class="text-deg">
+                    <h2 id="deg">30 °C</h2>
+                    <p id="clouds">clouds</p>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="item">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="huma-deg">
+                        <p class="title">Humidity</p>
+                        <p  id="Humidity" >74</p>
+                    </div>
+                </div>
+                  <div class="item">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="huma-deg ">
+                        <p class="title">Wind speed</p>
+                        <p id="Speed">42 M/s</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item" id="weatherList">
+                
+            </div>
+        </section>
+
+        <section id="notFond" aria-label="notFond banner">
+            <img class="image-banner" src="./assets/message/not-found.png" alt="notFond banner" loading="lazy">
+            <div class="text">
+                <h2 class="header-banner">Not Found</h2>
+                <p class="text-banner">Find out the weather conditions of the city</p>
+            </div>
+        </section>
+        
+    </main>
+    
+</body>
+<script src="./index.js"></script>
+</html>
