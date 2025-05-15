@@ -20,7 +20,7 @@ This repository contains a collection of mini-projects built using **HTML**, **C
 
 | Project Name | Description |
 |--------------|-------------|
-| [🌦️ Weather App](./weatherapp) | A weather forecast app using OpenWeather API with real-time temperature, humidity, and weather conditions |
+| [🌦️ Weather App](./WeatherApp) | A weather forecast app using OpenWeather API with real-time temperature, humidity, and weather conditions |
 
 ## 🚧 Upcoming Projects
 
