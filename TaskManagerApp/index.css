@@ -1,0 +1,177 @@
+/*
+    import gg font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+/*
+    reset css
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/*
+    body css
+*/
+
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100dvh;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 100dvh;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.15);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    font-family: "Poppins", sans-serif;
+}
+
+/*
+    section content css
+*/
+
+.content{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.header > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header h3{
+    font-family: "Exile", system-ui;
+    font-size: 22px;
+}
+
+.todo{
+    padding-left: 10px;
+}
+
+.addItem{
+    height: 56px;
+    width: 100%; 
+    position: relative;
+}
+
+.addItem input{
+    height: 90%;
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border:none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+}
+
+.addItem input:focus{
+    outline: none;
+}
+
+
+.addItem button{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+
+    width: 30px;
+    height: 30px;
+}
+
+.listItem{
+    width: 100%;
+    height: 80%;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    min-height: 40px;
+    margin: 10px 0px;
+    transition:  2s ease-in-out;
+
+}
+
+.box{
+    border: 1px solid rgb(0, 0, 0,0.2);
+    width: 18px;
+    height: 18px;
+    border-radius: 59%;
+    cursor: pointer;
+}
+
+.in {
+    transform: translateX(-100px);
+    opacity: 0;
+    animation-name: In;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.out{
+    animation-name: Out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes In {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes Out {
+    from{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+}
