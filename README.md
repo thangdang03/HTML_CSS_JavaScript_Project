@@ -22,6 +22,8 @@ This repository contains a collection of mini-projects built using **HTML**, **C
 |--------------|-------------|
 | [🌦️ Weather App](./WeatherApp) | A weather forecast app using OpenWeather API with real-time temperature, humidity, and weather conditions |
 | [🎮 Tic Tac Toe](./TicTacToeGame) | A classic 3x3 Tic Tac Toe game built with **vanilla HTML, CSS, and JavaScript |
+| [✅ ToDo List App](./TaskManagerApp) | ToDo List App Simple Task Manager with HTML, CSS & JavaScript |
+| [🧮 Calculator App](./CalculatorApp) | Build a Calculator with HTML, CSS & JavaScript  |
 
 ## 🚧 Upcoming Projects
 
