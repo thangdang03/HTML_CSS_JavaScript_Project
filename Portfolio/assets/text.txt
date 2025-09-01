@@ -1,0 +1,80 @@
+
+Home
+technology
+Project
+Contact
+
+FrontEnd Developer
+A self-taught UI/UX designer, functioning in the industry for 3+ years now.
+I make meaningful and delightful digital products that create an equilibrium
+between user needs and business goals.
+
+Github
+Html
+Css
+Javascript
+React
+NextJs
+NodeJs
+Express
+NestJs
+SocketIo
+MongoDB
+Mysql
+Redis
+ElasticSearch
+RabbitMQ
+Docker
+Linux
+
+GitHub
+Proficient in version control using Git and GitHub. Experienced in collaborative workflows, pull requests, code reviews, and maintaining clean commit history.
+
+HTML
+Strong understanding of semantic HTML5. Capable of building accessible, SEO-friendly, and well-structured web pages.
+
+CSS
+Skilled in writing responsive and maintainable CSS using Flexbox, Grid, and modern layout techniques. Familiar with design systems and component-based styling.
+
+JavaScript
+Proficient in ES6+ syntax, DOM manipulation, and asynchronous programming. Experienced in building dynamic and interactive web applications.
+
+React
+Capable of building scalable front-end applications using React. Familiar with hooks, context API, component lifecycle, and state management libraries.
+
+Next.js
+Experience with server-side rendering (SSR), static site generation (SSG), API routes, and optimizing performance for production-ready applications.
+
+Node.js
+Comfortable building backend services with Node.js, handling asynchronous operations, file systems, and integrating with databases and APIs.
+
+Express.js
+Experienced in developing RESTful APIs using Express. Skilled in middleware, routing, error handling, and building scalable back-end architectures.
+
+NestJS
+Proficient in building modular, maintainable, and testable backend applications with NestJS. Strong grasp of dependency injection and TypeScript.
+
+Socket.IO
+Implemented real-time features such as chat systems and notifications using WebSockets via Socket.IO.
+
+MongoDB
+Experience with designing schemas, aggregations, and optimizing queries in a NoSQL document database environment.
+
+MySQL
+Knowledgeable in relational database design, complex queries, indexing, and data normalization.
+
+Redis
+Used Redis for caching, session management, and improving performance in high-traffic applications.
+
+Elasticsearch
+Implemented full-text search and analytics features using Elasticsearch. Familiar with indexing strategies and query DSL.
+
+RabbitMQ
+Experience with message queues and implementing asynchronous communication between microservices using RabbitMQ.
+
+Docker
+Proficient in containerizing applications using Docker. Experience with writing Dockerfiles, managing images, and using Docker Compose.
+
+Linux
+Comfortable using Linux for development and deployment. Familiar with command-line tools, process management, and shell scripting.
+
